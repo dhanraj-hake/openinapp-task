@@ -1,0 +1,147 @@
+.dashboard {
+    background-color: #F8FAFF;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.side-nav {
+    border-radius: 20px;
+    background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-size: 18px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.b-link {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+.content {
+    color: black;
+    padding-left: 3rem;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.nav img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nav input {
+    width: 197px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box .icon {
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    right: 12px;
+    position: absolute;
+}
+
+.top-card {
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+}
+
+.card-count {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.discount {
+    width: 47px;
+    height: 24px;
+    padding: 4px, 8px, 4px, 8px;
+    border-radius: 34px;
+    background-color: #E9F9EB;
+    color: #4AD15F;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.activity-chart {
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.top-product-card {
+    width: 480px;
+    height: 256px;
+    border: 2px solid #E0E0E0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.add-profile-card{
+    width: 550px;
+    height: 256px;
+    border-radius: 20px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+    padding: 10px;
+    margin-left: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-profile-text{
+font-size: 16px;
+font-weight: 600;
+color: #858585;
+
+}
+
+
+.modal-nav-link{
+    border-bottom: 3px solid #D9D9D9;
+    padding-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.modal-nav-link.active{
+    border-bottom: 3px solid #3F84F8;
+}
+
